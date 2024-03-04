@@ -18,7 +18,7 @@ const Reg = ({setIsNewUser, isNewUser}) => {
                  <input type="password" placeholder="confirm password" className="p-2 m-3 bg-black border-2 rounded-2xl" name=" confirmpassword"/>
                </form>
                <div className="w-full p-4">
-                 <button className="w-full  p-3 bg-green-500 rounded-2xl">SUBMIT</button>
+                 <button className="w-full  p-3 bg-green-500 rounded-2xl"> <Link href='/acess'>Submit<Link/>  </button>
                </div> 
                <div className="flex justify-between items-center">
                 <p className="p-3">Already have an account</p>
